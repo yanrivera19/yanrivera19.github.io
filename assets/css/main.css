@@ -1350,9 +1350,9 @@ input, select, textarea {
 					margin-bottom: 0;
 				}
 
-			#header .content p {
-				text-transform: uppercase;
-				letter-spacing: 0.2rem;
+			#header .content p .inner{
+/*				text-transform: uppercase;*/
+/*				letter-spacing: 0.7rem !important;*/
 				font-size: 0.8rem;
 				line-height: 2;
 			}
