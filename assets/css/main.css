@@ -83,6 +83,10 @@ input, select, textarea {
 		html, body {
 			min-width: 320px;
 		}
+        
+        .role {
+            font-size: 1rem !important;
+        }
 
 	}
 
@@ -729,7 +733,6 @@ input, select, textarea {
 				margin: auto;
                 margin-bottom: 22px;
 			}
-
 		}
 
 /* List */
