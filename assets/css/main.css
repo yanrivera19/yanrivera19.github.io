@@ -1295,7 +1295,7 @@ input, select, textarea {
 			margin-top: 3.5rem;
 		}
 
-/*			#header > *:before {*/
+			#header > *:before {., 
 				content: '';
 				display: block;
 				position: absolute;
