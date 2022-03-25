@@ -1039,7 +1039,7 @@ input, select, textarea {
 		cursor: pointer;
 		display: inline-block;
 		font-size: 0.8rem;
-		font-weight: 900;
+/*		font-weight: 900;*/
 		height: 2.75rem;
 		letter-spacing: 0.2rem;
 		line-height: 2.75rem;
@@ -1295,7 +1295,7 @@ input, select, textarea {
 			margin-top: 3.5rem;
 		}
 
-			#header > *:before {., 
+			#header > *:before {
 				content: '';
 				display: block;
 				position: absolute;
@@ -1314,19 +1314,19 @@ input, select, textarea {
 				display: none;
 			}
 
-/*
 		#header .logo {
 			width: 5.5rem;
 			height: 5.5rem;
 			line-height: 5.5rem;
 			border: solid 1px #ffffff;
 			border-radius: 100%;
+/*            align-content: center;*/
 		}
-*/
 
-			#header .logo .icon:before {
-				font-size: 2rem;
+			#header .logo .icon {
+				font-size: 4rem;
 			}
+            
 
 		#header .content {
 			border-style: solid;
@@ -1354,9 +1354,9 @@ input, select, textarea {
 					margin-bottom: 0;
 				}
 
-			#header .content p .inner{
-/*				text-transform: uppercase;*/
-/*				letter-spacing: 0.7rem !important;*/
+			#header .content p {
+				text-transform: uppercase;
+				letter-spacing: 0.2rem;
 				font-size: 0.8rem;
 				line-height: 2;
 			}
@@ -1387,12 +1387,11 @@ input, select, textarea {
 					min-width: 7.5rem;
 					height: 2.75rem;
 					line-height: 2.75rem;
-					padding: 0 1.25rem 0 1.25rem;
+					padding: 0 1.25rem 0 1.45rem;
 					text-transform: uppercase;
 					letter-spacing: 0.2rem;
-					font-size: .9rem;
-					border-bottom: 0;
-                    font-weight: bold;
+					font-size: 0.9rem;
+					border-bottom: 0;                    
 				}
 
 					#header nav ul li a:hover {
@@ -1473,8 +1472,8 @@ input, select, textarea {
 				line-height: 4.75rem;
 			}
 
-				#header .logo .icon:before {
-					font-size: 1.75rem;
+				#header .logo .icon {
+					font-size: 3rem;
 				}
 
 			#header .content .inner {
